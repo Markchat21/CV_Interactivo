@@ -5,7 +5,7 @@ Funcion para generar infromacion al hacer click
 */
 function newInfo(id, row, info){
   var onClick = document.getElementById(id);
-  var newElement = document.createElement("information")
+  var newElement = document.createElement("p");
   var rowInfo = document.getElementById(row);
   onClick.addEventListener('click', function(){
     if(!flag){
